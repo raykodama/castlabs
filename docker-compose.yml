@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  jwt_utility:
+    build: .
+    container_name: jwt_utility_container
+    volumes:
+      - ./secret.txt:/app/secret.txt
+    command: python jwt_utility.py
