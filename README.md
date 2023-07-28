@@ -36,7 +36,7 @@ The JWT utility can be run inside a Docker container. To set up the Docker envir
 
 3. Run the JWT Utility in a Docker Container:
    After building the Docker image, you can run the JWT utility inside a Docker container. Run the following command:
-   docker run --rm -v "$(PWD)/secret.txt:/app/secret.txt" jwt_utility
+   docker run --rm -v "$(pwd)/secret.txt:/app/secret.txt" jwt_utility
 
    The JWT utility will be executed inside the Docker container, and the output will be displayed in the terminal.
 
