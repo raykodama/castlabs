@@ -17,7 +17,7 @@ Files:
 Dependencies:
 
 The utility requires the PyJWT library for JWT encoding and decoding. To install the required dependencies, run the following command in your terminal or command prompt:
-pip install pyjwt
+`pip install pyjwt`
 
 Make sure you have Python and `pip` installed on your system before running the above command. If you don't have `pip` installed, you can install it by following the instructions for your operating system: https://pip.pypa.io/en/stable/installing/
 
@@ -32,11 +32,11 @@ The JWT utility can be run inside a Docker container. To set up the Docker envir
    Open a terminal or command prompt.
    Navigate to the root directory of your project (where the `Dockerfile` is located).
    Run the following command to build the Docker image:
-   docker build -t jwt_utility .
+   `docker build -t jwt_utility .`
 
 3. Run the JWT Utility in a Docker Container:
    After building the Docker image, you can run the JWT utility inside a Docker container. Run the following command:
-   docker run --rm -v "$(pwd)/secret.txt:/app/secret.txt" jwt_utility
+   `docker run --rm -v "$(pwd)/secret.txt:/app/secret.txt" jwt_utility`
 
    The JWT utility will be executed inside the Docker container, and the output will be displayed in the terminal.
 
@@ -53,7 +53,7 @@ To use `docker-compose`:
    Open a terminal or command prompt.
    Navigate to the root directory of your project (where the `docker-compose.yml` file is located).
    Run the following command to build and run the Docker containers:
-   docker-compose up --build
+   `docker-compose up --build`
 
    The JWT utility will be executed inside the Docker container, and the output will be displayed in the terminal.
 
