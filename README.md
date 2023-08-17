@@ -72,7 +72,7 @@ Usage:
 3. Generate a JWT:
    - To generate a JWT, you have two options:
      - Without Docker: Open a terminal or command prompt, navigate to the root directory of your project, and run the following command:
-       python jwt_utility.py
+       `python jwt_utility.py`
 
        The script will generate a JWT based on the input data (if customized) and the secret key from `secret.txt`. It will then print the generated JWT in the console output.
 
