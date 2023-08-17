@@ -61,7 +61,7 @@ To use `docker-compose`:
    Use the make command followed by the target name to execute the targets defined in the Makefile.
    Open a terminal and navigate to the directory containing your Makefile, Dockerfile, and docker-compose.yml.
 
-   Run the Targets:
+   -Run the Targets:
    To build the application image, run: `make build`
    To run the utility using Docker Compose, run: `make run`
    *Do not prefix these commands with ./. Just run them directly in the terminal.
